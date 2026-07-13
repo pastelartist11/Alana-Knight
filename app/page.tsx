@@ -59,7 +59,7 @@
               </div>
               <div className="grid gap-4 lg:grid-cols-[0.9fr_1fr]">
                 <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
-                  <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">About</div>
+                  <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">My Vision</div>
                   <p className="text-sm leading-6 text-[#1d1d1d]">
                     I experiment with retro and geometric brand identities that stand out and draw people in. I create bold, memorable visuals with unique color schemes that help brands break through the noise.
                   </p>
