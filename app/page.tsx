@@ -36,6 +36,17 @@
                     </div>
                   </div>
                 </div>
+                <div className="flex items-center justify-between gap-3">
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ff3cac] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Home
+                  </button>
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ffdd55] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-[#1d1d1d] shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Projects
+                  </button>
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#3d8cff] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Contact
+                  </button>
+                </div>
               </div>
 
             </div>
