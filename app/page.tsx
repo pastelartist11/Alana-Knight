@@ -38,27 +38,6 @@
                 </div>
               </div>
 
-              <div className="space-y-4">
-                <div className="rounded-[1.5rem] border-4 border-black bg-[#ffffff] p-5 text-sm text-[#1d1d1d] shadow-[8px_8px_0_rgba(0,0,0,0.15)]">
-                  <p className="mb-4 text-[0.72rem] uppercase tracking-[0.45em] text-[#0b3dff]">Profile</p>
-                  <ul className="space-y-3 text-sm leading-6">
-                    <li className="font-black">Graphic Designer</li>
-                    <li className="font-black">Visual Storyteller</li>
-                    <li className="font-black">Brand Experimenter</li>
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between gap-3">
-                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ff3cac] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
-                    Home
-                  </button>
-                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ffdd55] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-[#1d1d1d] shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
-                    Projects
-                  </button>
-                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#3d8cff] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
-                    Contact
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
 
