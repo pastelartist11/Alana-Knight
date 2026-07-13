@@ -63,7 +63,7 @@
                   <p className="text-sm leading-6 text-[#1d1d1d]">
                     I experiment with retro and geometric brand identities that stand out and draw people in. I create bold, memorable visuals with unique color schemes that help brands break through the noise.
                   </p>
-                  <p className="mt-4 text-sm font-black text-[#ff3cac]">Let’s make something unexpected together.</p>
+                  <p className="mt-4 text-sm font-black text-[#ff3cac]">Let’s Experiment and Change the Vision together</p>
                 </div>
                 <div className="grid gap-3">
                   <div className="h-24 rounded-[1.2rem] border-4 border-black bg-[#0b3cff] p-3">
