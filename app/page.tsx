@@ -19,11 +19,21 @@
                   <span>Experimenting for the Consumer</span>
                 </div>
                 <div className="relative overflow-hidden rounded-[1.5rem] border-4 border-black bg-[#f8f8f8] p-6 shadow-[8px_8px_0_rgba(0,0,0,0.15)]">
-                  <div className="absolute -left-6 top-6 h-12 w-12 rounded-full bg-[#60a4ff]/20" />
-                  <div className="absolute right-6 top-10 h-16 w-16 rounded-[0.8rem] border-4 border-[#ffdd55]/80 bg-[#ffdd55]/20" />
-                  <div className="text-[clamp(3rem,7vw,5.5rem)] font-black leading-[0.95] text-[#0b1430]" style={{ textShadow: '0 6px 0 rgba(255,255,255,0.9), 8px 8px 0 rgba(0,0,0,0.24), 16px 16px 0 rgba(255,255,255,0.25)' }}>
-                    <span className="block text-[#ff3cac]">Alana</span>
-                    <span className="block text-[#3d8cff]">Knight</span>
+                  <div className="text-left">
+                    <div className="text-[clamp(3rem,7vw,5.5rem)] font-black leading-[0.95] tracking-[-0.03em]" style={{ textShadow: '0 6px 0 rgba(255,255,255,0.9), 8px 8px 0 rgba(0,0,0,0.24), 16px 16px 0 rgba(255,255,255,0.25)' }}>
+                      <span className="text-[#ff3cac]">A</span>
+                      <span className="text-[#ffdd55]">l</span>
+                      <span className="text-[#3d8cff]">a</span>
+                      <span className="text-[#ff3cac]">n</span>
+                      <span className="text-[#ffdd55]">a</span>
+                      <span className="text-[#3d8cff]"> </span>
+                      <span className="text-[#ff3cac]">K</span>
+                      <span className="text-[#ffdd55]">n</span>
+                      <span className="text-[#3d8cff]">i</span>
+                      <span className="text-[#ff3cac]">g</span>
+                      <span className="text-[#ffdd55]">h</span>
+                      <span className="text-[#3d8cff]">t</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -37,13 +47,16 @@
                     <li className="font-black">Brand Experimenter</li>
                   </ul>
                 </div>
-                <div className="grid gap-3">
-                  <div className="h-24 rounded-[1.2rem] border-4 border-black bg-[#0b3cff] p-3">
-                    <div className="h-full rounded-[1rem] bg-[#94caff]" />
-                  </div>
-                  <div className="h-24 rounded-[1.2rem] border-4 border-black bg-[#ff5ebc] p-3">
-                    <div className="h-full rounded-[1rem] bg-[#ffd77c]" />
-                  </div>
+                <div className="flex items-center justify-between gap-3">
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ff3cac] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Home
+                  </button>
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#ffdd55] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-[#1d1d1d] shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Projects
+                  </button>
+                  <button className="flex-1 rounded-[1rem] border-4 border-black bg-[#3d8cff] px-4 py-4 text-sm font-black uppercase tracking-[0.35em] text-white shadow-[6px_6px_0_rgba(0,0,0,0.18)]">
+                    Contact
+                  </button>
                 </div>
               </div>
             </div>
