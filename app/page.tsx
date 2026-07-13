@@ -46,11 +46,12 @@ export default function Page() {
           <div className="relative z-10 flex flex-col items-center text-center px-4">
             <h1
               style={{
-                fontFamily: "'Comic Sans MS', 'Comic Sans', cursive",
+                fontFamily: "'Fredoka One', 'Comic Sans MS', 'Comic Sans', cursive",
+                color: '#000000',
                 textShadow:
-                  '0 8px 0 rgba(0,0,0,0.25), 6px 6px 0 rgba(255,255,255,0.18), -2px -2px 0 rgba(255,255,255,0.35)',
+                  '4px 4px 0 rgba(0,0,0,0.35), 10px 10px 0 rgba(0,0,0,0.18), -2px -2px 0 rgba(255,255,255,0.95), 2px -2px 0 rgba(255,255,255,0.75), -2px 2px 0 rgba(255,255,255,0.75)',
               }}
-              className="text-[clamp(4rem,7vw,8rem)] font-black leading-[0.9] tracking-[-0.04em] text-white"
+              className="text-[clamp(4rem,7vw,8rem)] font-black leading-[0.9] tracking-[-0.04em]"
             >
               Alana Knight
             </h1>
