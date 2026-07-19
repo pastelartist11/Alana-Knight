@@ -158,6 +158,11 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply min-h-screen bg-background text-foreground;
+    font-family: 'Trebuchet MS', 'Arial', sans-serif;
+  }
+  ::selection {
+    background: #ff4da6;
+    color: white;
   }
 }
