@@ -10,7 +10,11 @@
           <div className="rounded-[2rem] border-4 border-black bg-[#efece8] shadow-[14px_14px_0_rgba(0,0,0,0.9)]">
             <div className="flex items-center justify-between rounded-t-[1.5rem] border-b-4 border-black bg-[#ff3cac] px-5 py-3 text-sm uppercase tracking-[0.35em] text-white">
               <span>ALANA.KNIGHT</span>
-              <span className="h-6 w-6 rounded-sm border-2 border-white/90 bg-[#ffe4ef]" />
+              <div className="flex gap-2">
+                <div className="h-5 w-5 rounded-full bg-[#ffdd55] border-2 border-white/90 flex items-center justify-center text-[10px] text-black font-bold">−</div>
+                <div className="h-5 w-5 rounded-full bg-[#3d8cff] border-2 border-white/90 flex items-center justify-center text-[10px] text-white font-bold">_</div>
+                <div className="h-5 w-5 rounded-full bg-[#ff3cac] border-2 border-white/90 flex items-center justify-center text-[10px] text-white font-bold">×</div>
+              </div>
             </div>
             <div className="relative grid gap-6 p-6 lg:grid-cols-[1fr_0.9fr]">
               <div className="space-y-4">
@@ -54,19 +58,38 @@
 
           <div className="flex flex-col gap-8">
             <div className="rounded-[2rem] border-4 border-black bg-[#0b3cff] p-6 shadow-[14px_14px_0_rgba(0,0,0,0.9)]">
-              <div className="mb-4 rounded-[1rem] bg-[#021079] px-4 py-3 text-sm uppercase tracking-[0.35em] text-[#7fc8ff]">
-                About Me
+              <div className="mb-4 flex items-center justify-between rounded-[1rem] bg-[#021079] px-4 py-3 text-sm uppercase tracking-[0.35em] text-[#7fc8ff]">
+                <span>About Me</span>
+                <div className="flex gap-2">
+                  <div className="h-4 w-4 rounded-full bg-[#ffdd55] border border-white/60 flex items-center justify-center text-[8px] text-black font-bold">−</div>
+                  <div className="h-4 w-4 rounded-full bg-[#3d8cff] border border-white/60 flex items-center justify-center text-[8px] text-white font-bold">_</div>
+                  <div className="h-4 w-4 rounded-full bg-[#ff3cac] border border-white/60 flex items-center justify-center text-[8px] text-white font-bold">×</div>
+                </div>
               </div>
               <div className="grid gap-4 lg:grid-cols-[0.9fr_1fr]">
                 <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
-                  <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">My Vision</div>
+                  <div className="mb-3 flex items-center justify-between text-sm uppercase tracking-[0.35em] text-[#0b3dff]">
+                    <span>My Vision</span>
+                    <div className="flex gap-1.5">
+                      <div className="h-3 w-3 rounded-full bg-[#ffdd55] border border-black/30 flex items-center justify-center text-[6px] text-black font-bold">−</div>
+                      <div className="h-3 w-3 rounded-full bg-[#3d8cff] border border-black/30 flex items-center justify-center text-[6px] text-white font-bold">_</div>
+                      <div className="h-3 w-3 rounded-full bg-[#ff3cac] border border-black/30 flex items-center justify-center text-[6px] text-white font-bold">×</div>
+                    </div>
+                  </div>
                   <p className="text-sm leading-6 text-[#1d1d1d]">
                     I experiment with retro and geometric brand identities that stand out and draw people in. I create bold, memorable visuals with unique color schemes that help brands break through the noise.
                   </p>
                   <p className="mt-4 text-sm font-black text-[#ff3cac]">Let’s Experiment and Change the Vision together</p>
                 </div>
                 <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
-                  <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">Education</div>
+                  <div className="mb-3 flex items-center justify-between text-sm uppercase tracking-[0.35em] text-[#0b3dff]">
+                    <span>Education</span>
+                    <div className="flex gap-1.5">
+                      <div className="h-3 w-3 rounded-full bg-[#ffdd55] border border-black/30 flex items-center justify-center text-[6px] text-black font-bold">−</div>
+                      <div className="h-3 w-3 rounded-full bg-[#3d8cff] border border-black/30 flex items-center justify-center text-[6px] text-white font-bold">_</div>
+                      <div className="h-3 w-3 rounded-full bg-[#ff3cac] border border-black/30 flex items-center justify-center text-[6px] text-white font-bold">×</div>
+                    </div>
+                  </div>
                   <p className="text-sm leading-6 text-[#1d1d1d]">
                     Add your educational background and qualifications here.
                   </p>
@@ -75,8 +98,15 @@
 
             <div className="rounded-[2rem] border-4 border-black bg-[#ffffff] p-6 shadow-[14px_14px_0_rgba(0,0,0,0.9)] text-[#1d1d1d]">
               <div className="mb-6 flex items-center justify-between rounded-[1rem] bg-[#ff3cac] px-4 py-3 text-sm uppercase tracking-[0.35em] text-white">
-                <span>Featured Work</span>
-                <span className="rounded-full bg-white/20 px-3 py-1 text-xs uppercase tracking-[0.4em]">New</span>
+                <div className="flex items-center gap-3">
+                  <span>Featured Work</span>
+                  <span className="rounded-full bg-white/20 px-3 py-1 text-xs uppercase tracking-[0.4em]">New</span>
+                </div>
+                <div className="flex gap-2">
+                  <div className="h-4 w-4 rounded-full bg-[#ffdd55] border border-white/60 flex items-center justify-center text-[8px] text-black font-bold">−</div>
+                  <div className="h-4 w-4 rounded-full bg-[#3d8cff] border border-white/60 flex items-center justify-center text-[8px] text-white font-bold">_</div>
+                  <div className="h-4 w-4 rounded-full bg-[#ff3cac] border border-white/60 flex items-center justify-center text-[8px] text-white font-bold">×</div>
+                </div>
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 {['Branding', 'Poster', 'Packaging', 'Digital'].map((label) => (
