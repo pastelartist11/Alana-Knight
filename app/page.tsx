@@ -10,10 +10,20 @@
           <div className="rounded-[2rem] border-4 border-black bg-[#efece8] shadow-[14px_14px_0_rgba(0,0,0,0.9)]">
             <div className="flex items-center justify-between rounded-t-[1.5rem] border-b-4 border-black bg-[#ff3cac] px-5 py-3 text-sm uppercase tracking-[0.35em] text-white">
               <span>ALANA.KNIGHT</span>
-              <div className="flex gap-2">
-                <div className="h-5 w-5 rounded-full bg-[#ffdd55] border-2 border-white/90 flex items-center justify-center text-[10px] text-black font-bold">−</div>
-                <div className="h-5 w-5 rounded-full bg-[#3d8cff] border-2 border-white/90 flex items-center justify-center text-[10px] text-white font-bold">_</div>
-                <div className="h-5 w-5 rounded-full bg-[#ff3cac] border-2 border-white/90 flex items-center justify-center text-[10px] text-white font-bold">×</div>
+              <div className="flex gap-3">
+                <svg width="18" height="18" viewBox="0 0 16 16" className="fill-none">
+                  <circle cx="8" cy="8" r="6" stroke="#ffdd55" strokeWidth="2"/>
+                  <line x1="5" y1="8" x2="11" y2="8" stroke="#ffdd55" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 16 16" className="fill-none">
+                  <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                  <line x1="8" y1="5" x2="8" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 16 16" className="fill-none">
+                  <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                  <line x1="5" y1="5" x2="11" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
+                  <line x1="11" y1="5" x2="5" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
               </div>
             </div>
             <div className="relative grid gap-6 p-6 lg:grid-cols-[1fr_0.9fr]">
