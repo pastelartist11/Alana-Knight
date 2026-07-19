@@ -65,19 +65,12 @@
                   </p>
                   <p className="mt-4 text-sm font-black text-[#ff3cac]">Let’s Experiment and Change the Vision together</p>
                 </div>
-                <div className="grid gap-3">
-                  <div className="h-24 rounded-[1.2rem] border-4 border-black bg-[#0b3cff] p-3">
-                    <div className="h-full rounded-[1rem] bg-[#94caff]" />
-                  </div>
-                  <div className="h-24 rounded-[1.2rem] border-4 border-black bg-[#ff5ebc] p-3">
-                    <div className="h-full rounded-[1rem] bg-[#ffd77c]" />
-                  </div>
+                <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
+                  <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">Education</div>
+                  <p className="text-sm leading-6 text-[#1d1d1d]">
+                    Add your educational background and qualifications here.
+                  </p>
                 </div>
-              </div>              <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
-                <div className="mb-3 flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">Education</div>
-                <p className="text-sm leading-6 text-[#1d1d1d]">
-                  Add your educational background and qualifications here.
-                </p>
               </div>            </div>
 
             <div className="rounded-[2rem] border-4 border-black bg-[#ffffff] p-6 shadow-[14px_14px_0_rgba(0,0,0,0.9)] text-[#1d1d1d]">
