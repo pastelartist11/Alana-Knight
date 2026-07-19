@@ -12,8 +12,8 @@
               <span>ALANA.KNIGHT</span>
               <div className="flex gap-3">
                 <svg width="18" height="18" viewBox="0 0 16 16" className="fill-none">
-                  <circle cx="8" cy="8" r="6" stroke="#ffdd55" strokeWidth="2"/>
-                  <line x1="5" y1="8" x2="11" y2="8" stroke="#ffdd55" strokeWidth="2" strokeLinecap="round"/>
+                  <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                  <line x1="5" y1="8" x2="11" y2="8" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 <svg width="18" height="18" viewBox="0 0 16 16" className="fill-none">
                   <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
@@ -72,17 +72,17 @@
                 <span>About Me</span>
                 <div className="flex gap-3">
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#ffdd55" strokeWidth="2"/>
-                    <line x1="5" y1="8" x2="11" y2="8" stroke="#ffdd55" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="5" y1="8" x2="11" y2="8" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#3d8cff" strokeWidth="2"/>
-                    <line x1="8" y1="5" x2="8" y2="11" stroke="#3d8cff" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="8" y1="5" x2="8" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#ff3cac" strokeWidth="2"/>
-                    <line x1="5" y1="5" x2="11" y2="11" stroke="#ff3cac" strokeWidth="2" strokeLinecap="round"/>
-                    <line x1="11" y1="5" x2="5" y2="11" stroke="#ff3cac" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="5" y1="5" x2="11" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
+                    <line x1="11" y1="5" x2="5" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                 </div>
               </div>
@@ -110,17 +110,17 @@
                 </div>
                 <div className="flex gap-3">
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#ffdd55" strokeWidth="2"/>
-                    <line x1="5" y1="8" x2="11" y2="8" stroke="#ffdd55" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="5" y1="8" x2="11" y2="8" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#3d8cff" strokeWidth="2"/>
-                    <line x1="8" y1="5" x2="8" y2="11" stroke="#3d8cff" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="8" y1="5" x2="8" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                   <svg width="16" height="16" viewBox="0 0 16 16" className="fill-none">
-                    <circle cx="8" cy="8" r="6" stroke="#ff3cac" strokeWidth="2"/>
-                    <line x1="5" y1="5" x2="11" y2="11" stroke="#ff3cac" strokeWidth="2" strokeLinecap="round"/>
-                    <line x1="11" y1="5" x2="5" y2="11" stroke="#ff3cac" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="5" y1="5" x2="11" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
+                    <line x1="11" y1="5" x2="5" y2="11" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                 </div>
               </div>
