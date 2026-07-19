@@ -97,7 +97,12 @@
                 <div className="rounded-[1.2rem] border-4 border-black bg-[#ffffff] p-4 shadow-[8px_8px_0_rgba(0,0,0,0.2)]">
                   <div className="mb-3 text-sm uppercase tracking-[0.35em] text-[#0b3dff]">Education</div>
                   <p className="text-sm leading-6 text-[#1d1d1d]">
-                    Add your educational background and qualifications here.
+                    <span className="font-semibold">Associate</span>
+                    <br />
+                    <br />
+                    <span className="font-semibold">Bachelor's Degree Art</span>
+                    <br />
+                    Southern New Hampshire University (2025)
                   </p>
                 </div>
               </div>            </div>
